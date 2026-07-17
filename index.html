@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Página oficial de acesso ao Sistema de Cadastro."
+    >
+    <meta name="theme-color" content="#0b1930">
+    <title>Sistema de Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="Cabeçalho principal">
+        <a class="brand" href="#inicio" aria-label="Sistema de Cadastro — início">
+          <span class="brand-mark" aria-hidden="true">SC</span>
+          <span>Sistema de Cadastro</span>
+        </a>
+        <span class="official-badge">
+          <span class="status-dot" aria-hidden="true"></span>
+          Acesso oficial
+        </span>
+      </header>
+
+      <main id="inicio">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Cadastro simples e orientado</p>
+            <h1 id="hero-title">Tudo pronto para começar seu cadastro.</h1>
+            <p class="hero-description">
+              Esta é a página oficial de acesso. Ao continuar, você será
+              direcionado ao formulário hospedado no ambiente do Google.
+            </p>
+
+            <div class="hero-actions">
+              <!-- Substitua o valor abaixo pela URL /exec do Web App. -->
+              <a
+                class="primary-button"
+                id="form-link"
+                href="#"
+                data-form-url="https://script.google.com/macros/s/AKfycbyTVb4F4-tH2WFWPNPrTcagfmP2wV_kPLPKMUd0jJOgjsMZVMW_Y66ZY9Kcwxif14fL/exec"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Acessar formulário
+                <span aria-hidden="true">↗</span>
+              </a>
+              <p class="action-note">O formulário abrirá em uma nova aba.</p>
+            </div>
+
+            <p class="link-message" id="link-message" role="status" aria-live="polite"></p>
+          </div>
+
+          <aside class="trust-card" aria-label="Informações importantes">
+            <div class="card-topline">
+              <span>Antes de continuar</span>
+              <span class="shield" aria-hidden="true">✓</span>
+            </div>
+            <ol class="steps">
+              <li>
+                <span class="step-number">01</span>
+                <div>
+                  <strong>Abra o formulário</strong>
+                  <p>Use o botão oficial disponível nesta página.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-number">02</span>
+                <div>
+                  <strong>Faça sua identificação</strong>
+                  <p>Entre com o acesso fornecido pelo responsável.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-number">03</span>
+                <div>
+                  <strong>Envie o cadastro</strong>
+                  <p>Revise as informações antes de concluir.</p>
+                </div>
+              </li>
+            </ol>
+          </aside>
+        </section>
+
+        <section class="privacy-note" aria-labelledby="privacy-title">
+          <div class="privacy-icon" aria-hidden="true">i</div>
+          <div>
+            <h2 id="privacy-title">Seus dados não passam por esta página</h2>
+            <p>
+              Este endereço serve somente como apresentação e direcionamento.
+              Nenhum CPF, telefone, senha ou outra informação pessoal é
+              solicitado ou armazenado aqui.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© <span id="current-year"></span> Sistema de Cadastro</p>
+        <p>Página de acesso ao formulário oficial</p>
+      </footer>
+    </div>
+  </body>
+</html>
